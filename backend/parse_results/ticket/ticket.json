@@ -1,0 +1,234 @@
+[
+    {
+        "page_id": 0,
+        "page_md": "ORGANIZED BY HKSAR, GASC & HKMAO, SUPPORTED BY SF&OC 香港特別行政區、团家體育總局、国務院港澳辦主办 港協暨奥委會支持 GALA SHOW BY MAINLAND OLYMPIANS 奥運健兒大匯演 QUEEN ELIZABETH STADIUM 伊利沙伯體育館 TICKET HOLDER NAME 持票人姓名: WANG/JIUMING YCAR年 /MONTH月/DAY日 \n![fig_30751](https://pdf-bucket.tos-cn-beijing.volces.com/infer/20250331/8c2f7963bf9b69da1377e10e938db7c7_1743414854471715263.jpg) \n![fig_21298](https://pdf-bucket.tos-cn-beijing.volces.com/infer/20250331/8c2f7963bf9b69da1377e10e938db7c7_1743414854472233745.jpg) \n![fig_51657](https://pdf-bucket.tos-cn-beijing.volces.com/infer/20250331/8c2f7963bf9b69da1377e10e938db7c7_1743414854471601480.jpg) \n門票每張二十元 \n(包括不能退款的購票手續費九元) Each ticket price is $20 (including non-refundable booking service charge $9) 2024/08/30 (FRI) 8:00 PM ROW行 SEAT座位 J 23 \nHKD 11.0 ALIP STAN_SP \nSECTION /AISLE段 5 \n持票人於入場時需出示舆鬥票上姓名相同並附有相片的身份證明文件供核對,否則将被拒入場,所缴票款怨不退還。 Ticket holder must present proof of identity document with photo, matching the name on this ticket for verification at admission. Otherwise, admission may be denied and no reiund will be made. 请遵守場地规則 详情見以下纲頁: Please observe the House Rules as shown in website: \nhttps://www.Icsd.gov.hk/tc/paris2024/",
+        "page_image_hw": {
+            "h": 576,
+            "w": 914
+        },
+        "textblocks": [
+            {
+                "box": {
+                    "x1": 548,
+                    "y1": 344,
+                    "x0": 99,
+                    "y0": 37
+                },
+                "text": "ORGANIZED BY HKSAR, GASC & HKMAO, SUPPORTED BY SF&OC 香港特別行政區、团家體育總局、国務院港澳辦主办 港協暨奥委會支持 GALA SHOW BY MAINLAND OLYMPIANS 奥運健兒大匯演 QUEEN ELIZABETH STADIUM 伊利沙伯體育館 TICKET HOLDER NAME 持票人姓名: WANG/JIUMING YCAR年 /MONTH月/DAY日",
+                "label": "para",
+                "norm_box": {
+                    "y0": 0.0642361111111111,
+                    "x1": 0.5995623632385121,
+                    "y1": 0.5972222222222222,
+                    "x0": 0.10831509846827134
+                },
+                "is_bold": false,
+                "is_italic": false
+            },
+            {
+                "is_bold": false,
+                "is_italic": false,
+                "box": {
+                    "y0": 28,
+                    "x1": 858,
+                    "y1": 101,
+                    "x0": 702
+                },
+                "text": "URBTIX\n城市售票网",
+                "label": "image",
+                "norm_box": {
+                    "x0": 0.7680525164113785,
+                    "y0": 0.04861111111111111,
+                    "x1": 0.9387308533916849,
+                    "y1": 0.1753472222222222
+                },
+                "url": "https://pdf-bucket.tos-cn-beijing.volces.com/infer/20250331/8c2f7963bf9b69da1377e10e938db7c7_1743414854471715263.jpg",
+                "image_id": "fig_30751"
+            },
+            {
+                "label": "image",
+                "norm_box": {
+                    "x0": 0.7768052516411379,
+                    "y0": 0.19444444444444445,
+                    "x1": 0.888402625820569,
+                    "y1": 0.3732638888888889
+                },
+                "url": "https://pdf-bucket.tos-cn-beijing.volces.com/infer/20250331/8c2f7963bf9b69da1377e10e938db7c7_1743414854472233745.jpg",
+                "image_id": "fig_21298",
+                "is_bold": false,
+                "is_italic": false,
+                "box": {
+                    "x0": 710,
+                    "y0": 112,
+                    "x1": 812,
+                    "y1": 215
+                },
+                "text": ""
+            },
+            {
+                "is_italic": false,
+                "box": {
+                    "y0": 110,
+                    "x1": 838,
+                    "y1": 288,
+                    "x0": 815
+                },
+                "text": "24082210011257001001",
+                "label": "foot",
+                "norm_box": {
+                    "x0": 0.8916849015317286,
+                    "y0": 0.1909722222222222,
+                    "x1": 0.9168490153172867,
+                    "y1": 0.5
+                },
+                "is_bold": false
+            },
+            {
+                "text": "",
+                "label": "image",
+                "norm_box": {
+                    "x0": 0.5853391684901532,
+                    "y0": 0.3541666666666667,
+                    "x1": 0.6663019693654267,
+                    "y1": 0.4809027777777778
+                },
+                "url": "https://pdf-bucket.tos-cn-beijing.volces.com/infer/20250331/8c2f7963bf9b69da1377e10e938db7c7_1743414854471601480.jpg",
+                "image_id": "fig_51657",
+                "is_bold": false,
+                "is_italic": false,
+                "box": {
+                    "x0": 535,
+                    "y0": 204,
+                    "x1": 609,
+                    "y1": 277
+                }
+            },
+            {
+                "box": {
+                    "x0": 698,
+                    "y0": 255,
+                    "x1": 790,
+                    "y1": 271
+                },
+                "text": "門票每張二十元",
+                "label": "para",
+                "norm_box": {
+                    "x0": 0.7636761487964989,
+                    "y0": 0.4427083333333333,
+                    "x1": 0.8643326039387309,
+                    "y1": 0.4704861111111111
+                },
+                "is_bold": false,
+                "is_italic": false
+            },
+            {
+                "norm_box": {
+                    "y0": 0.4774305555555556,
+                    "x1": 0.8687089715536105,
+                    "y1": 0.7395833333333334,
+                    "x0": 0.11050328227571116
+                },
+                "is_bold": false,
+                "is_italic": false,
+                "box": {
+                    "x0": 101,
+                    "y0": 275,
+                    "x1": 794,
+                    "y1": 426
+                },
+                "text": "(包括不能退款的購票手續費九元) Each ticket price is $20 (including non-refundable booking service charge $9) 2024/08/30 (FRI) 8:00 PM ROW行 SEAT座位 J 23",
+                "label": "para"
+            },
+            {
+                "box": {
+                    "y0": 336,
+                    "x1": 742,
+                    "y1": 428,
+                    "x0": 608
+                },
+                "text": "HKD 11.0 ALIP STAN_SP",
+                "label": "para",
+                "norm_box": {
+                    "x1": 0.811816192560175,
+                    "y1": 0.7430555555555556,
+                    "x0": 0.6652078774617067,
+                    "y0": 0.5833333333333334
+                },
+                "is_bold": false,
+                "is_italic": false
+            },
+            {
+                "box": {
+                    "x0": 229,
+                    "y0": 373,
+                    "x1": 339,
+                    "y1": 425
+                },
+                "text": "SECTION /AISLE段 5",
+                "label": "para",
+                "norm_box": {
+                    "x0": 0.25054704595185995,
+                    "y0": 0.6475694444444444,
+                    "x1": 0.37089715536105033,
+                    "y1": 0.7378472222222222
+                },
+                "is_bold": false,
+                "is_italic": false
+            },
+            {
+                "is_bold": false,
+                "is_italic": false,
+                "box": {
+                    "y1": 532,
+                    "x0": 101,
+                    "y0": 435,
+                    "x1": 746
+                },
+                "text": "持票人於入場時需出示舆鬥票上姓名相同並附有相片的身份證明文件供核對,否則将被拒入場,所缴票款怨不退還。 Ticket holder must present proof of identity document with photo, matching the name on this ticket for verification at admission. Otherwise, admission may be denied and no reiund will be made. 请遵守場地规則 详情見以下纲頁: Please observe the House Rules as shown in website:",
+                "label": "para",
+                "norm_box": {
+                    "y1": 0.9236111111111112,
+                    "x0": 0.11050328227571116,
+                    "y0": 0.7552083333333334,
+                    "x1": 0.8161925601750547
+                }
+            },
+            {
+                "box": {
+                    "y0": 531,
+                    "x1": 379,
+                    "y1": 552,
+                    "x0": 103
+                },
+                "text": "https://www.Icsd.gov.hk/tc/paris2024/",
+                "label": "para",
+                "norm_box": {
+                    "x0": 0.11269146608315099,
+                    "y0": 0.921875,
+                    "x1": 0.41466083150984684,
+                    "y1": 0.9583333333333334
+                },
+                "is_bold": false,
+                "is_italic": false
+            },
+            {
+                "label": "foot",
+                "norm_box": {
+                    "x0": 0.8949671772428884,
+                    "y0": 0.9322916666666666,
+                    "x1": 0.9409190371991247,
+                    "y1": 0.953125
+                },
+                "is_bold": false,
+                "is_italic": false,
+                "box": {
+                    "x0": 818,
+                    "y0": 537,
+                    "x1": 860,
+                    "y1": 549
+                },
+                "text": "MAOYAN"
+            }
+        ]
+    }
+]

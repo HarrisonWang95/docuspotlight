@@ -1,0 +1,324 @@
+[
+    {
+        "page_id": 0,
+        "page_md": "![fig_95465](https://pdf-bucket.tos-cn-beijing.volces.com/infer/20250331/e15613a49ced06a9743b290a9f393be3_1743353000697809278.jpg) \n\n| Mobile/Service No.手機/服務號碼 | | :12345678 |\n| --- | --- | --- |\n| Account no. | 客戶號碼 | :88888888 |\n| Bill Date | 截數日期 | :10/09/10 |\n| Amount Due | 應缴款項 | :$400.00 |\n| Payment Due Date | 缴费到期日 | :24/09/10 |\n| PPS Merchant Code | 缴费商戶编號 | :06 |\n \nPage 3 of 3 \nSection 3 - IDD / Roaming / Other Details (Note: Details and charges of the used roaming services may be shown/billed 1-2 months after the date of usage, due to the handling time of different service providere.) \n## IDD / Roaming /Other Details 長途霉話 /漫游/其他詳细記錄 \n## Local 本地/International國際 \nIDD 長途电话 \n\n| HK TIme 香港時間 | Item 项目 08:52 001861234567890 | Destination 地區 China Guangdong - Fixed | Usage 4:00 | Rebate / Discount 用量[Min]回赠/折扣[HKS] | Charges 收费[HK$] 12.00 | Surcharges 额外收费[HKS] 0.00 |\n| --- | --- | --- | --- | --- | --- | --- |\n| 02/09 | |\n| 03/09 | 08:57 001868888882222 | China Guangdong - Fixed | 5:00 | | 15.00 | 0.00 |\n| 04/09 | 11:1619668612345689 | China Guangdong - Mobile | 1:30 | | 3.00 | 0.00 |\n| | | | | | 30.00 | 0.00 |\n \n1 Record of IDD Call usages in this period \n## Roaming 漫遊 \nRoaming Call / SMS / Video 漫遊通話/短訊/视像 \n\n| Local Time 當地時間 | Item 项目 | Operator / Destination 钢络商/地區 | Usage 用量[MIn] | Rebate / Discount 回赠/折扣[HKS] | Charges 收费[HKS] | Surcharges 额外收费[HK$] |\n| --- | --- | --- | --- | --- | --- | --- |\n| 18/08 | 10:17 922123456 HDL | CHUNGHWA TELECOM, TWN | 0:33 | | 10.52 | 0.00 |\n| | | | | | 10.52 | 0.00 |\n \n## 2 Record of Roaming Call / SMS /Video usages which counted in this bill statement \n## Data Roaming 数據漫遊 \n\n| Local Time 當地 | Item 项目 | Operator / Destination 網络商/地區 | Usage 用量[KB] | Rebate / Discount 回赠/折扣[HKS] | Charges 收费[HK$] | Surcharges 额外收费[HK$] |\n| --- | --- | --- | --- | --- | --- | --- |\n| 12/08 | Data Roaming | Telefonica O2,DEU | 1343KB | | 0.00 | 188.12 |\n| | | | | | 0.00 | 188.12 |\n \n3 Record of Data Roaming usages which counted in this bill statement",
+        "page_image_hw": {
+            "w": 570,
+            "h": 829
+        },
+        "textblocks": [
+            {
+                "image_id": "fig_95465",
+                "is_bold": false,
+                "is_italic": false,
+                "box": {
+                    "x0": 7,
+                    "y0": 8,
+                    "x1": 51,
+                    "y1": 69
+                },
+                "text": "Thre.cor hk",
+                "label": "image",
+                "norm_box": {
+                    "x0": 0.012280701754385965,
+                    "y0": 0.009650180940892641,
+                    "x1": 0.08947368421052632,
+                    "y1": 0.08323281061519903
+                },
+                "url": "https://pdf-bucket.tos-cn-beijing.volces.com/infer/20250331/e15613a49ced06a9743b290a9f393be3_1743353000697809278.jpg"
+            },
+            {
+                "box": {
+                    "y1": 101,
+                    "x0": 301,
+                    "y0": 8,
+                    "x1": 565
+                },
+                "text": "| Mobile/Service No.手機/服務號碼 |  | :12345678 |\n| --- | --- | --- |\n| Account no. | 客戶號碼 | :88888888 |\n| Bill Date | 截數日期 | :10/09/10 |\n| Amount Due | 應缴款項 | :$400.00 |\n| Payment Due Date | 缴费到期日 | :24/09/10 |\n| PPS Merchant Code | 缴费商戶编號 | :06 |",
+                "label": "table",
+                "norm_box": {
+                    "y1": 0.1218335343787696,
+                    "x0": 0.5280701754385965,
+                    "y0": 0.009650180940892641,
+                    "x1": 0.9912280701754386
+                },
+                "image_id": "tab_74151",
+                "is_bold": false,
+                "is_italic": false
+            },
+            {
+                "is_italic": false,
+                "box": {
+                    "x0": 494,
+                    "y0": 101,
+                    "x1": 548,
+                    "y1": 114
+                },
+                "text": "Page 3 of 3",
+                "label": "cap",
+                "norm_box": {
+                    "y0": 0.1218335343787696,
+                    "x1": 0.9614035087719298,
+                    "y1": 0.13751507840772015,
+                    "x0": 0.8666666666666667
+                },
+                "is_bold": false
+            },
+            {
+                "box": {
+                    "y0": 128,
+                    "x1": 536,
+                    "y1": 185,
+                    "x0": 9
+                },
+                "text": "Section 3 - IDD / Roaming / Other Details (Note: Details and charges of the used roaming services may be shown/billed 1-2 months after the date of usage, due to the handling time of different service providere.)",
+                "label": "para",
+                "norm_box": {
+                    "x0": 0.015789473684210527,
+                    "y0": 0.15440289505428226,
+                    "x1": 0.9403508771929825,
+                    "y1": 0.22316043425814233
+                },
+                "is_bold": false,
+                "is_italic": false
+            },
+            {
+                "is_bold": false,
+                "is_italic": false,
+                "box": {
+                    "x1": 379,
+                    "y1": 241,
+                    "x0": 8,
+                    "y0": 225
+                },
+                "text": "IDD / Roaming /Other Details 長途霉話 /漫游/其他詳细記錄",
+                "label": "sec",
+                "norm_box": {
+                    "x0": 0.014035087719298246,
+                    "y0": 0.27141133896260555,
+                    "x1": 0.6649122807017543,
+                    "y1": 0.29071170084439085
+                }
+            },
+            {
+                "box": {
+                    "x0": 4,
+                    "y0": 256,
+                    "x1": 188,
+                    "y1": 274
+                },
+                "text": "Local 本地/International國際",
+                "label": "sec",
+                "norm_box": {
+                    "x0": 0.007017543859649123,
+                    "y0": 0.3088057901085645,
+                    "x1": 0.3298245614035088,
+                    "y1": 0.330518697225573
+                },
+                "is_bold": false,
+                "is_italic": false
+            },
+            {
+                "is_italic": false,
+                "box": {
+                    "y1": 307,
+                    "x0": 10,
+                    "y0": 291,
+                    "x1": 96
+                },
+                "text": "IDD 長途电话",
+                "label": "cap",
+                "norm_box": {
+                    "x0": 0.017543859649122806,
+                    "y0": 0.35102533172496986,
+                    "x1": 0.16842105263157894,
+                    "y1": 0.3703256936067551
+                },
+                "is_bold": false
+            },
+            {
+                "label": "table",
+                "norm_box": {
+                    "x1": 0.9456140350877194,
+                    "y1": 0.4825090470446321,
+                    "x0": 0.014035087719298246,
+                    "y0": 0.3968636911942099
+                },
+                "image_id": "tab_12975",
+                "is_bold": false,
+                "is_italic": false,
+                "box": {
+                    "x0": 8,
+                    "y0": 329,
+                    "x1": 539,
+                    "y1": 400
+                },
+                "text": "| HK TIme 香港時間 | Item 项目 08:52 001861234567890 | Destination 地區 China Guangdong - Fixed | Usage 4:00 | Rebate / Discount 用量[Min]回赠/折扣[HKS] | Charges 收费[HK$] 12.00 | Surcharges 额外收费[HKS] 0.00 |\n| --- | --- | --- | --- | --- | --- | --- |\n| 02/09 |  |\n| 03/09 | 08:57 001868888882222 | China Guangdong - Fixed | 5:00 |  | 15.00 | 0.00 |\n| 04/09 | 11:1619668612345689 | China Guangdong - Mobile | 1:30 |  | 3.00 | 0.00 |\n|  |  |  |  |  | 30.00 | 0.00 |"
+            },
+            {
+                "box": {
+                    "x0": 8,
+                    "y0": 403,
+                    "x1": 226,
+                    "y1": 418
+                },
+                "text": "1 Record of IDD Call usages in this period",
+                "label": "cap",
+                "norm_box": {
+                    "x0": 0.014035087719298246,
+                    "y0": 0.48612786489746684,
+                    "x1": 0.39649122807017545,
+                    "y1": 0.5042219541616405
+                },
+                "is_bold": false,
+                "is_italic": false
+            },
+            {
+                "box": {
+                    "x0": 4,
+                    "y0": 450,
+                    "x1": 92,
+                    "y1": 466
+                },
+                "text": "Roaming 漫遊",
+                "label": "sec",
+                "norm_box": {
+                    "x1": 0.16140350877192983,
+                    "y1": 0.5621230398069964,
+                    "x0": 0.007017543859649123,
+                    "y0": 0.5428226779252111
+                },
+                "is_bold": false,
+                "is_italic": false
+            },
+            {
+                "box": {
+                    "x0": 10,
+                    "y0": 481,
+                    "x1": 310,
+                    "y1": 495
+                },
+                "text": "Roaming Call / SMS / Video 漫遊通話/短訊/视像",
+                "label": "cap",
+                "norm_box": {
+                    "x1": 0.543859649122807,
+                    "y1": 0.5971049457177322,
+                    "x0": 0.017543859649122806,
+                    "y0": 0.5802171290711701
+                },
+                "is_bold": false,
+                "is_italic": false
+            },
+            {
+                "is_bold": false,
+                "is_italic": false,
+                "box": {
+                    "y0": 505,
+                    "x1": 539,
+                    "y1": 585,
+                    "x0": 7
+                },
+                "text": "| Local Time 當地時間 | Item 项目 | Operator / Destination 钢络商/地區 | Usage 用量[MIn] | Rebate / Discount 回赠/折扣[HKS] | Charges 收费[HKS] | Surcharges 额外收费[HK$] |\n| --- | --- | --- | --- | --- | --- | --- |\n| 18/08 | 10:17 922123456 HDL | CHUNGHWA TELECOM, TWN | 0:33 |  | 10.52 | 0.00 |\n|  |  |  |  |  | 10.52 | 0.00 |",
+                "label": "table",
+                "norm_box": {
+                    "y1": 0.7056694813027744,
+                    "x0": 0.012280701754385965,
+                    "y0": 0.609167671893848,
+                    "x1": 0.9456140350877194
+                },
+                "image_id": "tab_61243"
+            },
+            {
+                "is_italic": false,
+                "box": {
+                    "x0": 8,
+                    "y0": 586,
+                    "x1": 438,
+                    "y1": 601
+                },
+                "text": "2 Record of Roaming Call / SMS /Video usages which counted in this bill statement",
+                "label": "sec",
+                "norm_box": {
+                    "x0": 0.014035087719298246,
+                    "y0": 0.706875753920386,
+                    "x1": 0.7684210526315789,
+                    "y1": 0.7249698431845597
+                },
+                "is_bold": false
+            },
+            {
+                "is_italic": false,
+                "box": {
+                    "x0": 10,
+                    "y0": 626,
+                    "x1": 156,
+                    "y1": 642
+                },
+                "text": "Data Roaming 数據漫遊",
+                "label": "sec",
+                "norm_box": {
+                    "x0": 0.017543859649122806,
+                    "y0": 0.7551266586248492,
+                    "x1": 0.2736842105263158,
+                    "y1": 0.7744270205066345
+                },
+                "is_bold": false
+            },
+            {
+                "text": "| Local Time 當地 | Item 项目 | Operator / Destination 網络商/地區 | Usage 用量[KB] | Rebate / Discount 回赠/折扣[HKS] | Charges 收费[HK$] | Surcharges 额外收费[HK$] |\n| --- | --- | --- | --- | --- | --- | --- |\n| 12/08 | Data Roaming | Telefonica O2,DEU | 1343KB |  | 0.00 | 188.12 |\n|  |  |  |  |  | 0.00 | 188.12 |",
+                "label": "table",
+                "norm_box": {
+                    "y0": 0.7852834740651388,
+                    "x1": 0.9473684210526315,
+                    "y1": 0.8697225572979493,
+                    "x0": 0.010526315789473684
+                },
+                "image_id": "tab_84060",
+                "is_bold": false,
+                "is_italic": false,
+                "box": {
+                    "x0": 6,
+                    "y0": 651,
+                    "x1": 540,
+                    "y1": 721
+                }
+            },
+            {
+                "label": "cap",
+                "norm_box": {
+                    "x0": 0.017543859649122806,
+                    "y0": 0.8721351025331725,
+                    "x1": 0.6491228070175439,
+                    "y1": 0.8890229191797346
+                },
+                "is_bold": false,
+                "is_italic": false,
+                "box": {
+                    "x1": 370,
+                    "y1": 737,
+                    "x0": 10,
+                    "y0": 723
+                },
+                "text": "3 Record of Data Roaming usages which counted in this bill statement"
+            },
+            {
+                "box": {
+                    "x1": 504,
+                    "y1": 815,
+                    "x0": 4,
+                    "y0": 764
+                },
+                "text": "Notes 注:C-Call Forward/来鼋颥;HDL-Home Direct Line /Home Direct專练;CFW -Iint 1 Call Forward /圈际来鼋辑驳; SMS-SMS /短訊;DP-Data Roaming Daily Pass /数膝漫避日費计蒯:IOV -Intemational Video Call /圆际视像通话 Data tee shown on Call Detalis is calcuated by fat rate at. For data pian users, please refer to the actual data fee on Monithly Statement section. 群细紀錄上显示之數搽收齊以欏准收秀計算;如蘭下已退用数據月費計蒯,講以月结睾部分内所显示之流勷數據服猕實际收费為準",
+                "label": "foot",
+                "norm_box": {
+                    "x0": 0.007017543859649123,
+                    "y0": 0.9215922798552473,
+                    "x1": 0.8842105263157894,
+                    "y1": 0.9831121833534379
+                },
+                "is_bold": false,
+                "is_italic": false
+            }
+        ]
+    }
+]

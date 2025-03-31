@@ -1,0 +1,88 @@
+/* 全局样式定义 */
+
+/* 表格样式 */
+.comparison-table {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  border: 1px solid var(--border-color);
+}
+
+.comparison-table th {
+  background-color: rgba(25, 118, 210, 0.08);
+  color: var(--text-primary);
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  letter-spacing: 0.5px;
+  padding: 12px 16px;
+}
+
+.comparison-table td {
+  padding: 10px 16px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.field-column {
+  min-width: 120px;
+  width: 15%;
+}
+
+.equal-width-column {
+  width: calc(85% / 3);
+}
+
+.field-name {
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.value-cell {
+  position: relative;
+  transition: background-color 0.2s;
+}
+
+.value-cell:hover {
+  background-color: var(--hover-color);
+}
+
+.clickable-value {
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.clickable-value:hover {
+  background-color: rgba(3, 169, 244, 0.1);
+}
+
+.original-text {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  margin-bottom: 4px;
+}
+
+.parsed-value {
+  font-weight: 500;
+}
+
+/* 渠道颜色 */
+.channel-0 {
+  border-left: 3px solid var(--primary-color);
+}
+
+.channel-1 {
+  border-left: 3px solid var(--secondary-color);
+}
+
+/* 响应式设计 */
+@media (max-width: 960px) {
+  .equal-width-column {
+    min-width: 120px;
+  }
+  
+  .comparison-table {
+    overflow-x: auto;
+  }
+}

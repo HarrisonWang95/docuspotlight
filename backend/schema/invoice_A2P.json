@@ -1,0 +1,99 @@
+{
+  "type": "object",
+  "properties": {
+    "originalTotalAmount": {
+      "type": "string",
+      "description": "账单上显示的原始总金额字符串。"
+    },
+    "totalAmount": {
+      "type": "number",
+      "description": "账单的总金额数值。"
+    },
+    "currency": {
+      "type": "string",
+      "description": "账单使用的货币类型。"
+    },
+    "calls": {
+      "type": "number",
+      "description": "账单中记录的通话次数，默认为空。"
+    },
+    "originalMinutes": {
+      "type": "string",
+      "description": "账单上显示的原始通话分钟数字符串。"
+    },
+    "minutes": {
+      "type": "number",
+      "description": "账单中记录的通话分钟数值。"
+    },
+    "invoiceNumber": {
+      "type": "string",
+      "description": "账单或发票的唯一标识符。"
+    },
+    "originalBillingPeriod": {
+      "type": "string",
+      "description": "账单原文中的原始账期表示方式。"
+    },
+    "billingPeriod": {
+      "type": "string",
+      "format": "date",
+      "dateFormat": "yyyyMM",
+      "description": "标准化的账期，以月度为准，格式为YYYYMM，例如202501表示2025年1月。"
+    },
+    "vendorName": {
+      "type": "string",
+      "description": "账单供应商或服务提供商的名称。"
+    },
+    "originalInvoiceDate": {
+      "type": "string",
+      "description": "账单上的原始开票日期，保持原始格式。"
+    },
+    "invoiceDate": {
+      "type": "string",
+      "format": "date",
+      "dateFormat": "yyyy-MM-dd",
+      "description": "格式化为yyyy-MM-dd的开票日期。"
+    },
+    "originalDueDate": {
+      "type": "string",
+      "description": "账单上的原始到期日期，保持原始格式。"
+    },
+    "dueDate": {
+      "type": "string",
+      "format": "date",
+      "dateFormat": "yyyy-MM-dd",
+      "description": "格式化为yyyy-MM-dd的到期日期。"
+    },
+    "billCountry": {
+      "type": "string",
+      "description": "账单发行公司所在的国家。"
+    },
+    "extractExplanation": {
+      "type": "string",
+      "description": "提取文本内容的逻辑说明。"
+    },
+    "documentType": {
+      "type": "string",
+      "enum": [
+        "bill",
+        "dispute",
+        "other"
+      ],
+      "description": "The type of document: bill, dispute, or other."
+    }
+  },
+  "required": [
+    "originalTotalAmount",
+    "totalAmount",
+    "originalMinutes",
+    "minutes",
+    "invoiceNumber",
+    "originalBillingPeriod",
+    "billingPeriod",
+    "vendorName",
+    "originalInvoiceDate",
+    "invoiceDate",
+    "originalDueDate",
+    "dueDate",
+    "documentType"
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "properties": {
+    "eventDate": {
+      "description": "活动日期，格式为yyyy-MM-dd",
+      "dateFormat": "yyyy-MM-dd",
+      "format": "date",
+      "type": "string"
+    },
+    "eventName": {
+      "description": "活动名称",
+      "type": "string"
+    },
+    "originalEventDate": {
+      "description": "票面上的原始活动日期表示方式",
+      "type": "string"
+    },
+    "originalTicketPrice": {
+      "description": "票面上的原始票价表示方式",
+      "type": "string"
+    },
+    "seatNumber": {
+      "description": "座位号",
+      "type": "string"
+    },
+    "ticketPrice": {
+      "description": "票价数值",
+      "type": "number"
+    }
+  },
+  "required": [
+    "eventName",
+    "eventDate",
+    "originalEventDate",
+    "ticketPrice",
+    "originalTicketPrice",
+    "seatNumber"
+  ],
+  "type": "object"
+}

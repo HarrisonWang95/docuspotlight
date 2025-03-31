@@ -1,0 +1,18 @@
+{
+  "billCountry": "",
+  "billingPeriod": "201009",
+  "calls": 6,
+  "currency": "HKD",
+  "documentType": "bill",
+  "dueDate": "2010-09-24",
+  "invoiceDate": "2010-09-10",
+  "invoiceNumber": "88888888",
+  "minutes": 11.83,
+  "originalBillingPeriod": "10/09/10",
+  "originalDueDate": "24/09/10",
+  "originalInvoiceDate": "10/09/10",
+  "originalMinutes": "4:00、5:00、1:30、0:33",
+  "originalTotalAmount": "$400.00",
+  "totalAmount": 400.0,
+  "vendorName": "Thre.cor hk"
+}

@@ -1,0 +1,18 @@
+{
+  "billCountry": "",
+  "billingPeriod": "201009",
+  "calls": 4,
+  "currency": "HK$",
+  "documentType": "bill",
+  "dueDate": "2010-09-24",
+  "invoiceDate": "2010-09-10",
+  "invoiceNumber": "88888888",
+  "minutes": 5.5,
+  "originalBillingPeriod": "10/09/10 - 10/09/10",
+  "originalDueDate": "24/09/10",
+  "originalInvoiceDate": "10/09/10",
+  "originalMinutes": "5.5",
+  "originalTotalAmount": "HK$400.00",
+  "totalAmount": 400.0,
+  "vendorName": "Three"
+}
