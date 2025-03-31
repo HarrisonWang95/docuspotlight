@@ -18,7 +18,7 @@ COPY frontend-vue/ ./
 RUN npm run build
 
 # 后端构建阶段
-FROM python:3.9-slim
+FROM python:3.11-slim-bullseye 
 
 WORKDIR /app
 

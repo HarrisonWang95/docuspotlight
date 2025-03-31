@@ -24,6 +24,7 @@ cd pdf-preview
 docker-compose up -d
 ```
 3. 环境变量配置，请从火山引擎配置相关服务和key配置，并添加到`backend/.env`文件中：
+文本解析和多模态解析能力需要配置相关云服务（火山引擎-豆包、DeepSeek R1、火山引擎-文字识别）
 ARK_API_KEY="f5a2xxxx"
 ARK_BASE_URL="https://ark.cn-beijing.volces.com"
 VOLC_ACCESSKEY="Axxxxx"
