@@ -39,7 +39,7 @@ COPY start.sh /app/
 RUN chmod +x /app/start.sh
 
 # 暴露端口
-EXPOSE 5000 8080
+EXPOSE 5050 8080
 
 # 启动服务
 CMD ["/app/start.sh"]

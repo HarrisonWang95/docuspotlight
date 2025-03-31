@@ -10,5 +10,5 @@ echo "前端服务已启动在端口 8080"
 
 # 启动后端服务
 cd /app/backend
-echo "启动后端服务在端口 5000"
+echo "启动后端服务在端口 5050"
 exec python app.py

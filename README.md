@@ -31,7 +31,7 @@ VOLC_SECRETKEY="Wmxxxxxxxx"
 
 4. 访问应用
 - 前端界面: http://localhost:8080
-- 后端API: http://localhost:5000
+- 后端API: http://localhost:5050
 
 ### 数据持久化
 
