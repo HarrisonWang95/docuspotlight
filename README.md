@@ -23,7 +23,7 @@ cd pdf-preview
 ```bash
 docker-compose up -d
 ```
-3.环境变量配置，请从火山引擎配置相关服务和key配置，并添加到`backend/.env`文件中：
+3. 环境变量配置，请从火山引擎配置相关服务和key配置，并添加到`backend/.env`文件中：
 ARK_API_KEY="f5a2xxxx"
 ARK_BASE_URL="https://ark.cn-beijing.volces.com"
 VOLC_ACCESSKEY="Axxxxx"
