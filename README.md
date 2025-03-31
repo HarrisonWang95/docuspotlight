@@ -28,7 +28,7 @@ docker-compose up -d
 ARK_API_KEY="f5a2xxxx"
 ARK_BASE_URL="https://ark.cn-beijing.volces.com"
 VOLC_ACCESSKEY="Axxxxx"
-VOLC_SECRETKEY="Wmxxxxxxxx"
+VOLC_SECRETKEY="Wmxxxxxxxx" 
 
 4. 访问应用
 - 前端界面: http://localhost:8080

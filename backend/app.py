@@ -377,6 +377,7 @@ def get_multi_channel_results(task_id):
     field_name_map={"markdown_result":"DeepSeek-R1","multimodal_result":"豆包vision"}
     channels = []
     on_the_page=[]
+    norm_box=[]
     channel_files = glob.glob(os.path.join(EXTRACT_RESULTS_FOLDER, f"{task_id}/*.json"))
     
     
