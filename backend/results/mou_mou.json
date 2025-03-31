@@ -1,0 +1,38 @@
+{
+  "document_id": "mou.png",
+  "task_id": "task_84660fb9_1743434880",
+  "items": [
+    {
+      "id": 1,
+      "type": "基本信息",
+      "fields": [
+        {
+          "name": "姓名",
+          "value": "张三",
+          "confidence": 0.95
+        },
+        {
+          "name": "日期",
+          "value": "2023-05-15",
+          "confidence": 0.92
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "核心条款",
+      "fields": [
+        {
+          "name": "合同金额",
+          "value": "100,000元",
+          "confidence": 0.88
+        },
+        {
+          "name": "签署日期",
+          "value": "2023-05-20",
+          "confidence": 0.9
+        }
+      ]
+    }
+  ]
+}

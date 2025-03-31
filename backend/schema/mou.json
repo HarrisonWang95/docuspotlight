@@ -1,0 +1,17 @@
+{
+  "properties": {
+    "summary": {
+      "description": "对MOU进行总结",
+      "type": "string"
+    },
+    "Partner": {
+      "description": "MOU的签约主体",
+      "type": "string"
+    }
+  },
+  "required": [
+    "description",
+    "Partner"
+  ],
+  "type": "object"
+}
