@@ -19,11 +19,11 @@ frontend-vue/npm-debug.log
 **/env.bak
 **/venv.bak
 
-# 上传和结果文件夹（将通过卷挂载）
-backend/uploads/*
-backend/results/*
-backend/extract_results/*
-backend/parse_results/*
+# # 上传和结果文件夹（将通过卷挂载）
+# backend/uploads/*
+# backend/results/*
+# backend/extract_results/*
+# backend/parse_results/*
 
 # 其他
 .DS_Store
