@@ -28,14 +28,11 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     python3-dev \
     && rm -rf /var/lib/apt/lists/*
 
-# 复制后端项目文件
+# 复制后端项目文件（包括所有子目录和文件）
 COPY backend/ /app/backend/
 
 # 安装其他依赖
 RUN pip install --no-cache-dir -r /app/backend/requirements.txt
-
-# 创建必要的目录
-RUN mkdir -p /app/backend/uploads /app/backend/results /app/backend/extract_results /app/backend/parse_results
 
 # 从前端构建阶段复制构建好的文件
 COPY --from=frontend-build /app/frontend/dist /app/frontend/dist
