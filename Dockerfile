@@ -22,10 +22,16 @@ FROM python:3.11-slim-bullseye
 
 WORKDIR /app
 
+# 安装基础依赖
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    gcc \
+    python3-dev \
+    && rm -rf /var/lib/apt/lists/*
+
 # 复制后端项目文件
 COPY backend/ /app/backend/
 
-# 安装后端依赖
+# 安装其他依赖
 RUN pip install --no-cache-dir -r /app/backend/requirements.txt
 
 # 创建必要的目录

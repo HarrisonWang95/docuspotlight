@@ -477,7 +477,7 @@ def extract_text_locations(task_id: str = None, text_to_search: str = None):
 
     return response_text
 if __name__ == '__main__':
-    task_id = 'ticket'
+    task_id = 'mou'
     # 生成多渠道结果
     result = extract_text_locations(task_id)
     print(result)
