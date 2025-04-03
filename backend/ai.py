@@ -5,13 +5,13 @@ import asyncio
 from volcenginesdkarkruntime import Ark
 from volcengine.visual.VisualService import VisualService
 from config import Config
-
 import glob
 from dotenv import load_dotenv
 
 
-# 加载.env文件
-load_dotenv()
+# 如果关键环境变量不存在，则加载.env文件
+if not os.environ.get("ARK_API_KEY") or not os.environ.get("VOLC_ACCESSKEY"):
+    load_dotenv()
 
 # 初始化客户端
 client = Ark(
