@@ -16,7 +16,7 @@ app.config.from_object(Config)  # 使用配置类
 
 # CORS配置，允许部分API路由的跨域访问
 frontend_port = os.environ.get('FRONTEND_PORT', '32211')
-k8s_host = os.environ.get('K8S_HOST', '192.168.141.90')
+k8s_host = os.environ.get('K8S_HOST', '172.22.141.90')
 frontend_origins = [f'http://localhost:{frontend_port}', f'http://127.0.0.1:{frontend_port}']
 if k8s_host:
     frontend_origins.append(f'http://{k8s_host}')
