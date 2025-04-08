@@ -15,9 +15,11 @@ app = Flask(__name__)
 app.config.from_object(Config)  # 使用配置类
 
 # CORS配置，允许所有API路由的跨域访问
+frontend_port = os.environ.get('FRONTEND_PORT', '32211')
+frontend_origins = [f'http://localhost:{frontend_port}', f'http://127.0.0.1:{frontend_port}']
 CORS(app, resources={
     r"/*": {
-        "origins": ["http://localhost:8080", "http://127.0.0.1:8080", "http://172.19.21.90:8080"],  # 允许的域名列表
+        "origins": frontend_origins,  # 从环境变量读取允许的域名列表
         "methods": ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
         "allow_headers": ["Content-Type", "Authorization"],
         "expose_headers": ["Content-Type", "Authorization"],
@@ -492,5 +494,6 @@ def get_tasks():
         return jsonify({"error": f"获取任务列表失败: {str(e)}"}), 500
 
 if __name__ == '__main__':
+    # port = int(os.environ.get('BACKEND_PORT', 30267))
     app.run(debug=True, host='0.0.0.0', port=5050)
     # get_documents()

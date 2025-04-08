@@ -1,1 +1,2 @@
-export const API_BASE_URL = window.location.hostname === 'localhost' ? 'http://localhost:5050' : `${window.location.protocol}//${window.location.hostname}:5050`
+const BACKEND_PORT = process.env.BACKEND_PORT || '30267';
+export const API_BASE_URL = window.location.hostname === 'localhost' ? `http://localhost:${BACKEND_PORT}` : `${window.location.protocol}//${window.location.hostname}:${BACKEND_PORT}`

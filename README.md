@@ -32,8 +32,8 @@ VOLC_ACCESSKEY="Axxxxx"
 VOLC_SECRETKEY="Wmxxxxxxxx" 
 
 4. 访问应用
-- 前端界面: http://localhost:8080
-- 后端API: http://localhost:5050
+- 前端界面: http://localhost:FRONTEND_PORT
+- 后端API: http://localhost:BACKEND_PORT
 
 ### 数据持久化
 
@@ -161,5 +161,5 @@ POST /api/save-decision
    ```
 
 3. 访问应用：
-   - 文档验证页面：http://localhost:8080/
-   - 多渠道比对页面：http://localhost:8080/comparison
+   - 文档验证页面：http://localhost:FRONTEND_PORT/
+   - 多渠道比对页面：http://localhost:FRONTEND_PORT/comparison
