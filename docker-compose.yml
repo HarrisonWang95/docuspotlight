@@ -6,8 +6,8 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "${BACKEND_PORT:-30267}:5050"  # 后端API端口
-      - "${FRONTEND_PORT:-32211}:8080"  # 前端服务端口
+      - "${BACKEND_PORT:-5050}:5050"  # 后端API端口
+      - "${FRONTEND_PORT:-8080}:8080"  # 前端服务端口
     volumes:
       - ./backend/uploads:/app/backend/uploads
       - ./backend/results:/app/backend/results
